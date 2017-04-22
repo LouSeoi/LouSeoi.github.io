@@ -16,7 +16,6 @@ disqus_username: NONE
 markdown: kramdown
 kramdown:
   input : GFM
-  use_coderay:ture
 highlighter: rouge
 permalink: /:title/
 
