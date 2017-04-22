@@ -15,7 +15,11 @@ disqus_username: NONE
 # Build settings
 markdown: kramdown
 kramdown:
-  input : GFM
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
 highlighter: rouge
 permalink: /:title/
 
