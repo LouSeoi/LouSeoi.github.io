@@ -1,0 +1,45 @@
+# Site settings
+title: GaoXinyu - Jungler
+description: "I will do my best , god will do the rest \'maybe\'"
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+url: "https://louseoi.github.io/blog/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+# User settings
+username: Rizia
+user_title: Rizia - GaoXinyu
+email: rizia1996@outlook.com
+twitter_username: NONE
+github_username:  LouSeoi
+gplus_username:  NONE
+disqus_username: NONE
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: None
+    url: https://louseoi.github.io/blog/
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
