@@ -1,55 +1,73 @@
-# jekyll-theme-EasyBook
+# Space Jekyll
 
-Another Jekyll Blog Theme "EasyBook"
+A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
-Start blogging with a simple but powerful theme.
+See a live demo [here](https://victorvoid.github.io/space-jekyll-template/).
 
-## Features
+![](https://github.com/victorvoid/space-jekyll-template/blob/master/screenshot.png?raw=true)
 
-- Everything Basic Jekyll has.
-- **Pagination** is enabled.
-- **Comments** using Disqus or 多说.
-- **TOC** makes reading easier.
-- **Profile** including your links and avatar on the sidebar.
-- *And more...*
+# Site/User Settings
 
-## Install
+customize your site in ``_config.yml``
 
-Read [Quick Guide] to learn how to install and publish.
+```ruby
 
-Read [Welcome to Jekyll and EasyBook][helloPost] and [Jekyll][jekyll] for further information.
+# Site settings
+description: A blog about lorem ipsum
+baseurl: "" # the subpath
+url: "" # the base hostname &/|| protocol for your site 
 
-**If need help, please:**
+# User settings
+username: Lorem Ipsum
+user_description: Lorem Developer
+user_title: Lorem Ipsum
+email: lorem@ipsum.com
+twitter_username: loremipsum
+github_username:  loremipsum
+gplus_username:  loremipsum
+disqus_username: loremipsum
 
- - [**Read Wiki pages**](https://github.com/laobubu/jekyll-theme-EasyBook/wiki)
- - **Google it**
- - [**Submit an issue**](https://github.com/laobubu/jekyll-theme-EasyBook/issues/new)
+```
 
-## Donate
+## How to create a post ? 
 
-Buy me a coffee if you find EasyBook useful for you :smiley:
+_posts create a file .md with structure:
 
-Visit <http://laobubu.net/donate.html>
-
-## Demo
-
-[laobubu's blog](http://blog.laobubu.net) | [empty site](http://laobubu.github.io/jekyll-theme-EasyBook)
-
-![Homepage](https://ooo.0o0.ooo/2016/02/11/56bc997c65daf.png)
+```md
+---
+layout: post
+title: "Lorem ipsum speak.."
+date: 2016-09-13 01:00:00
+image: '/assets/img/post-image.png'
+description: 'about tech'
+tags:
+- lorem
+- tech 
+categories:
+- Lorem ipsum
+twitter_text: 'How to speak with Lorem'
+---
+```
 
 ## License
-
-```
 The MIT License (MIT)
-Copyright (c) 2016 laobubu
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Copyright (c) 2016 Victor Igor
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-[Quick Guide]: https://github.com/laobubu/jekyll-theme-EasyBook/wiki/Quick-Guide
-[helloPost]: http://laobubu.github.io/jekyll-theme-EasyBook/archivers/hello
-[jekyll]: http://jekyllrb.com/
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
