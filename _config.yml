@@ -2,15 +2,15 @@
 title: GaoXinyu - Jungler
 description: "I will do my best , god will do the rest \'maybe\'"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "https://louseoi.github.io/blog/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-disqus_username: loremipsum
+username: Rizia
+user_title: Rizia - GaoXinyu
+email: rizia1996@outlook.com
+twitter_username: NONE
+github_username:  LouSeoi
+gplus_username:  NONE
+disqus_username: NONE
 
 # Build settings
 markdown: kramdown
