@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	  <url>
+		<loc>http://localhost:4000/db/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/unixfs/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/testofxc/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/system/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/network/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/datastructure/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/algorithm/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/testoftx/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/coding/</loc>
+	  </url>
+	
+</urlset>
