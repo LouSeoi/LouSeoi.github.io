@@ -46,6 +46,6 @@ links:
 # projects in header index
 projects:
   - name: None
-    url: https://gaoxinyu.top/post/
+    url: https://gaoxinyu.top/posts/
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
