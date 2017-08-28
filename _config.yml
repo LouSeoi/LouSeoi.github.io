@@ -2,7 +2,7 @@
 title: GaoXinyu(Omer) - Jungler
 description: "I will do my best , god will do the rest \'maybe\'"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "https://LouSeoi.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "gaoxinyu.top" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
 username: Omer
 user_title: Omer - GaoXinyu
@@ -46,6 +46,6 @@ links:
 # projects in header index
 projects:
   - name: None
-    url: https://louseoi.github.io/blog/
+    url: https://gaoxinyu.top/blog/
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
